@@ -1,0 +1,1325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel='stylesheet' href='style.css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <title>Code5ive</title>
+</head>
+<body>
+
+
+<div class="bg"> 
+    <div class='header'>
+        <hr class="main-hr">
+        <div class='container-1'>
+            <hr>
+            <div class='header-line'>
+                <div class='header-logo'>
+                    <img class='code5ive' src="logo.png" alt="logo">
+                </div>
+                <div class='search'>
+                    <input type="text" class="search-field" placeholder="Поиск по ID">
+                    <img src="pngwing 1.png" class="search-icon">
+                </div>
+            </div>
+
+            <button class="btn" data-path="form-popup">Добавить данные</button>
+            <div class="modals">
+                <div class="modal-overlay">
+                    <button class="find">Findall</button>
+                    <div class="modal modal--1" data-target="form-popup">
+                        <select class="modal-select">
+                            <option class="modal-option">Выберите базу данных</option>
+                            <option>Карточка учета</option>
+                            <option>Титульная</option>
+                            <option>ПК</option>
+                            <option>Оргтехническое оборудование</option>
+                            <option>История</option>
+                            <option>Полученное оборудование</option>
+                            <option>Банк лицензий</option>
+                            <option>Персонализации сотрудника</option>
+                        </select>
+                        <div class="model-center">
+                            <table class="table-2 table-btn">
+                                <thead>
+                                    <tr>
+                                        <th>ID-Карт</th>
+                                        <th>ID-подразделения</th>
+                                        <th>ID-сотрудников</th>
+                                        <th>ID-ПК</th>
+                                        <th>ID-оргтехн</th>
+                                        <th>ID-корпус</th>
+                                        <th>ID-этаж</th>
+                                        <th>Дата</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th><input class="modal-input" type="text" placeholder="Введите ID-карты"></th>
+                                        <th><input class="modal-input" type="text" placeholder="Введите ID-подразд"></th>
+                                        <th><input class="modal-input" type="text" placeholder="Введите ID-сотрудников"></th>
+                                        <th><input class="modal-input" type="text" placeholder="Введите ID-ПК"></th>
+                                        <th><input class="modal-input" type="text" placeholder="Введите ID-оргтех"></th>
+                                        <th><input class="modal-input" type="text" placeholder="Введите ID-корпус"></th>
+                                        <th><input class="modal-input" type="text" placeholder="Введите ID-этаж"></th>
+                                        <th><input class="modal-input" type="text" placeholder="Введите дату"></th>
+                                    </tr>
+                                </tbody>
+                                </table>
+
+                            </div>
+                            <div>
+                                <button class="modal-btn">Применить изменения</button>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="container mtb-3">
+        <div><p class="name-of-table">Карточка учета</p></div>	
+        <div class="table-responsive">
+            <table class="table table-2">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>ID-Карт</th>
+                        <th>ID-подразделения</th>
+                        <th>ID-сотрудников</th>
+                        <th>ID-ПК</th>
+                        <th>ID-оргтехн</th>
+                        <th>ID-корпус</th>
+                        <th>ID-этаж</th>
+                        <th>Дата</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Bergnaum Bergnaum Bergnaum</td>
+                        <td>Abbie</td>
+                        <td>01.01.1970</td>
+                        <td>morton91@hammes.com</td>
+                        <td>+9069769550011</td>
+                        <td>Germany</td>
+                        <td>Berlin</td>
+                        <td>DE</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Bergnaum</td>
+                        <td>Abbie</td>
+                        <td>01.01.1970</td>
+                        <td>morton91@hammes.com</td>
+                        <td>+9069769550011</td>
+                        <td>Germany</td>
+                        <td>Berlin</td>
+                        <td>DE</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Bergnaum</td>
+                        <td>Abbie</td>
+                        <td>01.01.1970</td>
+                        <td>morton91@hammes.com</td>
+                        <td>+9069769550011</td>
+                        <td>Germany</td>
+                        <td>Berlin</td>
+                        <td>DE</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Bergnaum</td>
+                        <td>Abbie</td>
+                        <td>01.01.1970</td>
+                        <td>morton91@hammes.com</td>
+                        <td>+9069769550011</td>
+                        <td>Germany</td>
+                        <td>Berlin</td>
+                        <td>DE</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Bergnaum</td>
+                        <td>Abbie</td>
+                        <td>01.01.1970</td>
+                        <td>morton91@hammes.com</td>
+                        <td>+9069769550011</td>
+                        <td>Germany</td>
+                        <td>Berlin</td>
+                        <td>DE</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>Bergnaum</td>
+                        <td>Abbie</td>
+                        <td>01.01.1970</td>
+                        <td>morton91@hammes.com</td>
+                        <td>+9069769550011</td>
+                        <td>Germany</td>
+                        <td>Berlin</td>
+                        <td>DE</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>Bergnaum</td>
+                        <td>Abbie</td>
+                        <td>01.01.1970</td>
+                        <td>morton91@hammes.com</td>
+                        <td>+9069769550011</td>
+                        <td>Germany</td>
+                        <td>Berlin</td>
+                        <td>DE</td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>Bergnaum</td>
+                        <td>Abbie</td>
+                        <td>01.01.1970</td>
+                        <td>morton91@hammes.com</td>
+                        <td>+9069769550011</td>
+                        <td>Germany</td>
+                        <td>Berlin</td>
+                        <td>DE</td>
+                    </tr>
+                    <tr>
+                        <td>9</td>
+                        <td>Bergnaum</td>
+                        <td>Abbie</td>
+                        <td>01.01.1970</td>
+                        <td>morton91@hammes.com</td>
+                        <td>+9069769550011</td>
+                        <td>Germany</td>
+                        <td>Berlin</td>
+                        <td>DE</td>
+                    </tr>
+                    <tr>
+                        <td>10</td>
+                        <td>Bergnaum</td>
+                        <td>Abbie</td>
+                        <td>01.01.1970</td>
+                        <td>morton91@hammes.com</td>
+                        <td>+9069769550011</td>
+                        <td>Germany</td>
+                        <td>Berlin</td>
+                        <td>DE</td>
+                    </tr>
+                </tbody>
+            </table>
+        <hr class="mtb-3">
+        <div><p class="name-of-table">Титульная</p></div>
+        <table class="table table-2">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>ID</th>
+                    <th>ID ПК</th>
+                    <th>Структурное подразделение</th>
+                    <th>Сотрудник</th>
+                    <th>Название корпуса</th>
+                    <th>Номер комнаты</th>
+                    <th>Этаж</th>
+                    <th>Тип компьютера</th>
+                    <th>Тип оргтехнического оборудования</th>
+                    <th>Модель оборудования</th>
+                    <th>Номер Оргтехнического
+                        оборудования, серийный
+                        номер</th>
+                    <th>Дата выдачи</th>
+
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Bergnaum Bergnaum Bergnaum</td>
+                    <td>Abbie</td>
+                    <td>01.01.1970</td>
+                    <td>morton91@hammes.com</td>
+                    <td>+9069769550011</td>
+                    <td>Germany</td>
+                    <td>Berlin</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Bergnaum</td>
+                    <td>Abbie</td>
+                    <td>01.01.1970</td>
+                    <td>morton91@hammes.com</td>
+                    <td>+9069769550011</td>
+                    <td>Germany</td>
+                    <td>Berlin</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Bergnaum</td>
+                    <td>Abbie</td>
+                    <td>01.01.1970</td>
+                    <td>morton91@hammes.com</td>
+                    <td>+9069769550011</td>
+                    <td>Germany</td>
+                    <td>Berlin</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Bergnaum</td>
+                    <td>Abbie</td>
+                    <td>01.01.1970</td>
+                    <td>morton91@hammes.com</td>
+                    <td>+9069769550011</td>
+                    <td>Germany</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Bergnaum</td>
+                    <td>Abbie</td>
+                    <td>01.01.1970</td>
+                    <td>morton91@hammes.com</td>
+                    <td>+9069769550011</td>
+                    <td>Germany</td>
+                    <td>Berlin</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>Bergnaum</td>
+                    <td>Abbie</td>
+                    <td>01.01.1970</td>
+                    <td>morton91@hammes.com</td>
+                    <td>+9069769550011</td>
+                    <td>Germany</td>
+                    <td>Berlin</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>Bergnaum</td>
+                    <td>Abbie</td>
+                    <td>01.01.1970</td>
+                    <td>morton91@hammes.com</td>
+                    <td>+9069769550011</td>
+                    <td>Germany</td>
+                    <td>Berlin</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>Bergnaum</td>
+                    <td>Abbie</td>
+                    <td>01.01.1970</td>
+                    <td>morton91@hammes.com</td>
+                    <td>+9069769550011</td>
+                    <td>Germany</td>
+                    <td>Berlin</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td>Bergnaum</td>
+                    <td>Abbie</td>
+                    <td>01.01.1970</td>
+                    <td>morton91@hammes.com</td>
+                    <td>+9069769550011</td>
+                    <td>Germany</td>
+                    <td>Berlin</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td>Bergnaum</td>
+                    <td>Abbie</td>
+                    <td>01.01.1970</td>
+                    <td>morton91@hammes.com</td>
+                    <td>+9069769550011</td>
+                    <td>Germany</td>
+                    <td>Berlin</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                </tr>
+            </tbody>
+        </table>
+        <hr class="mtb-3">
+        <div><p class="name-of-table">ПК</p></div>
+        <table class="table table-2">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>ID ПК</th>
+                    <th>Тип компьютера</th>
+                    <th>Класс компьютера</th>
+                    <th>Модель материнской платы,
+                        количество слотов ОЗУ, тип
+                        сокета, наличие встроенной
+                        видеокарты</th>
+                    <th>Обьем ОЗУ, количество
+                        планок </th>
+                    <th>Модель жесткого диска,
+                        обьем, интерфейс
+                        </th>
+                    <th>Модель видеокарты,
+                        интерфейсы видео выхода</th>
+                    <th>Модель процессора, тип
+                        сокета, частота</th>
+                    <th>Наличие CD-rom</th>
+                    <th>Наличие внешней сетевой
+                        карты</th>
+                    <th>Версия операционной
+                        системы, наличие лицензии</th>
+                    <th>Наличие лицензии</th>
+                    <th>Ключ лицензии</th>
+                    <th>Устанавливаемое
+                        программное обеспечение</th>
+                    <th>Инв. номер/Номенкл. номер
+                        (Присвоенный Бухгалтерией)</th>
+                    <th>Сетевое имя</th>
+                    <th>Имя пользователя </th>
+                    <th>IP адрес </th>
+                    <th>Наличие интернета</th>
+                    <th>Наличие внешнего
+                        интернета
+                        </th>
+                    <th>IP адрес внешний</th>
+                    <th>Номер требования</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Bergnaum Bergnaum Bergnaum</td>
+                    <td>Abbie</td>
+                    <td>01.01.1970</td>
+                    <td>morton91@hammes.com</td>
+                    <td>+9069769550011</td>
+                    <td>Germany</td>
+                    <td>Berlin</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Bergnaum</td>
+                    <td>Abbie</td>
+                    <td>01.01.1970</td>
+                    <td>morton91@hammes.com</td>
+                    <td>+9069769550011</td>
+                    <td>Germany</td>
+                    <td>Berlin</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Bergnaum</td>
+                    <td>Abbie</td>
+                    <td>01.01.1970</td>
+                    <td>morton91@hammes.com</td>
+                    <td>+9069769550011</td>
+                    <td>Germany</td>
+                    <td>Berlin</td>
+                    <td>DE</td><td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Bergnaum</td>
+                    <td>Abbie</td>
+                    <td>01.01.1970</td>
+                    <td>morton91@hammes.com</td>
+                    <td>+9069769550011</td>
+                    <td>Germany</td>
+                    <td>Berlin</td>
+                    <td>DE</td><td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Bergnaum</td>
+                    <td>Abbie</td>
+                    <td>01.01.1970</td>
+                    <td>morton91@hammes.com</td>
+                    <td>+9069769550011</td>
+                    <td>Germany</td>
+                    <td>Berlin</td>
+                    <td>DE</td><td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>Bergnaum</td>
+                    <td>Abbie</td>
+                    <td>01.01.1970</td>
+                    <td>morton91@hammes.com</td>
+                    <td>+9069769550011</td>
+                    <td>Germany</td>
+                    <td>Berlin</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>Bergnaum</td>
+                    <td>Abbie</td>
+                    <td>01.01.1970</td>
+                    <td>morton91@hammes.com</td>
+                    <td>+9069769550011</td>
+                    <td>Germany</td>
+                    <td>Berlin</td>
+                    <td>DE</td><td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>Bergnaum</td>
+                    <td>Abbie</td>
+                    <td>01.01.1970</td>
+                    <td>morton91@hammes.com</td>
+                    <td>+9069769550011</td>
+                    <td>Germany</td>
+                    <td>Berlin</td>
+                    <td>DE</td><td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td>Bergnaum</td>
+                    <td>Abbie</td>
+                    <td>01.01.1970</td>
+                    <td>morton91@hammes.com</td>
+                    <td>+9069769550011</td>
+                    <td>Germany</td>
+                    <td>Berlin</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td>Bergnaum</td>
+                    <td>Abbie</td>
+                    <td>01.01.1970</td>
+                    <td>morton91@hammes.com</td>
+                    <td>+9069769550011</td>
+                    <td>Germany</td>
+                    <td>Berlin</td>
+                    <td>DE</td><td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                </tr>
+            </tbody>
+        </table>
+        <hr class="mtb-3">
+        <div><p class="name-of-table">Оргтехническое оборудование</p></div>
+        <table class="table table-2">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Тип оргтехнического
+                        оборудования</th>
+                    <th>Монитор</th>
+                    <th>Принтер</th>
+                    <th>МФУ</th>
+                    <th>Сканер</th>
+                    <th>Ксерокс</th>
+                    <th>Плоттер</th>
+                    <th>ИБП</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Bergnaum Bergnaum Bergnaum</td>
+                    <td>Abbie</td>
+                    <td>01.01.1970</td>
+                    <td>morton91@hammes.com</td>
+                    <td>+9069769550011</td>
+                    <td>Germany</td>
+                    <td>Berlin</td>
+                    <td>DE</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Bergnaum</td>
+                    <td>Abbie</td>
+                    <td>01.01.1970</td>
+                    <td>morton91@hammes.com</td>
+                    <td>+9069769550011</td>
+                    <td>Germany</td>
+                    <td>Berlin</td>
+                    <td>DE</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Bergnaum</td>
+                    <td>Abbie</td>
+                    <td>01.01.1970</td>
+                    <td>morton91@hammes.com</td>
+                    <td>+9069769550011</td>
+                    <td>Germany</td>
+                    <td>Berlin</td>
+                    <td>DE</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Bergnaum</td>
+                    <td>Abbie</td>
+                    <td>01.01.1970</td>
+                    <td>morton91@hammes.com</td>
+                    <td>+9069769550011</td>
+                    <td>Germany</td>
+                    <td>Berlin</td>
+                    <td>DE</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Bergnaum</td>
+                    <td>Abbie</td>
+                    <td>01.01.1970</td>
+                    <td>morton91@hammes.com</td>
+                    <td>+9069769550011</td>
+                    <td>Germany</td>
+                    <td>Berlin</td>
+                    <td>DE</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>Bergnaum</td>
+                    <td>Abbie</td>
+                    <td>01.01.1970</td>
+                    <td>morton91@hammes.com</td>
+                    <td>+9069769550011</td>
+                    <td>Germany</td>
+                    <td>Berlin</td>
+                    <td>DE</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>Bergnaum</td>
+                    <td>Abbie</td>
+                    <td>01.01.1970</td>
+                    <td>morton91@hammes.com</td>
+                    <td>+9069769550011</td>
+                    <td>Germany</td>
+                    <td>Berlin</td>
+                    <td>DE</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>Bergnaum</td>
+                    <td>Abbie</td>
+                    <td>01.01.1970</td>
+                    <td>morton91@hammes.com</td>
+                    <td>+9069769550011</td>
+                    <td>Germany</td>
+                    <td>Berlin</td>
+                    <td>DE</td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td>Bergnaum</td>
+                    <td>Abbie</td>
+                    <td>01.01.1970</td>
+                    <td>morton91@hammes.com</td>
+                    <td>+9069769550011</td>
+                    <td>Germany</td>
+                    <td>Berlin</td>
+                    <td>DE</td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td>Bergnaum</td>
+                    <td>Abbie</td>
+                    <td>01.01.1970</td>
+                    <td>morton91@hammes.com</td>
+                    <td>+9069769550011</td>
+                    <td>Germany</td>
+                    <td>Berlin</td>
+                    <td>DE</td>
+                </tr>
+            </tbody>
+        </table>
+        <hr class="mtb-3">
+        <div><p class="name-of-table">История</p></div>
+        <table class="table table-2">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Порядковый номер</th>
+                    <th>ID ПК (Текущий)</th>
+                    <th>Название подразделения(Измененное)</th>
+                    <th>ФИО ответственного (Измененное)</th>
+                    <th>Название корпуса, номер комнаты (Измененное)</th>
+                    <th>Этаж (Измененное)</th>
+                    <th>Номер телефона (Измененное)</th>
+                    <th>Дата (Текущая)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Bergnaum Bergnaum Bergnaum</td>
+                    <td>Abbie</td>
+                    <td>01.01.1970</td>
+                    <td>morton91@hammes.com</td>
+                    <td>+9069769550011</td>
+                    <td>Germany</td>
+                    <td>Berlin</td>
+                    <td>DE</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Bergnaum</td>
+                    <td>Abbie</td>
+                    <td>01.01.1970</td>
+                    <td>morton91@hammes.com</td>
+                    <td>+9069769550011</td>
+                    <td>Germany</td>
+                    <td>Berlin</td>
+                    <td>DE</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Bergnaum</td>
+                    <td>Abbie</td>
+                    <td>01.01.1970</td>
+                    <td>morton91@hammes.com</td>
+                    <td>+9069769550011</td>
+                    <td>Germany</td>
+                    <td>Berlin</td>
+                    <td>DE</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Bergnaum</td>
+                    <td>Abbie</td>
+                    <td>01.01.1970</td>
+                    <td>morton91@hammes.com</td>
+                    <td>+9069769550011</td>
+                    <td>Germany</td>
+                    <td>Berlin</td>
+                    <td>DE</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Bergnaum</td>
+                    <td>Abbie</td>
+                    <td>01.01.1970</td>
+                    <td>morton91@hammes.com</td>
+                    <td>+9069769550011</td>
+                    <td>Germany</td>
+                    <td>Berlin</td>
+                    <td>DE</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>Bergnaum</td>
+                    <td>Abbie</td>
+                    <td>01.01.1970</td>
+                    <td>morton91@hammes.com</td>
+                    <td>+9069769550011</td>
+                    <td>Germany</td>
+                    <td>Berlin</td>
+                    <td>DE</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>Bergnaum</td>
+                    <td>Abbie</td>
+                    <td>01.01.1970</td>
+                    <td>morton91@hammes.com</td>
+                    <td>+9069769550011</td>
+                    <td>Germany</td>
+                    <td>Berlin</td>
+                    <td>DE</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>Bergnaum</td>
+                    <td>Abbie</td>
+                    <td>01.01.1970</td>
+                    <td>morton91@hammes.com</td>
+                    <td>+9069769550011</td>
+                    <td>Germany</td>
+                    <td>Berlin</td>
+                    <td>DE</td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td>Bergnaum</td>
+                    <td>Abbie</td>
+                    <td>01.01.1970</td>
+                    <td>morton91@hammes.com</td>
+                    <td>+9069769550011</td>
+                    <td>Germany</td>
+                    <td>Berlin</td>
+                    <td>DE</td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td>Bergnaum</td>
+                    <td>Abbie</td>
+                    <td>01.01.1970</td>
+                    <td>morton91@hammes.com</td>
+                    <td>+9069769550011</td>
+                    <td>Germany</td>
+                    <td>Berlin</td>
+                    <td>DE</td>
+                </tr>
+            </tbody>
+        </table>
+        <hr class="mtb-3">
+        <div><p class="name-of-table">Полученное оборудование</p></div>
+        <table class="table table-2">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Порядковый номер</th>
+                    <th>Дата поступления</th>
+                    <th>Фирма поставщик </th>
+                    <th>Гарантийный срок</th>
+                    <th>Тип оборудования</th>
+                    <th>Наименование оборудования</th>
+                    <th>Серийный номер</th>
+                    <th>Документ на поступившее оборудование</th>
+                    <th>Номер оборудования (присвоенный УИТом)</th>
+                    <th>Инвентарныйномер/Номенклатурный номер (Присвоенный Бухгалтерией)</th>
+                    <th>Номер требования</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Bergnaum Bergnaum Bergnaum</td>
+                    <td>Abbie</td>
+                    <td>01.01.1970</td>
+                    <td>morton91@hammes.com</td>
+                    <td>+9069769550011</td>
+                    <td>Germany</td>
+                    <td>Berlin</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Bergnaum Bergnaum Bergnaum</td>
+                    <td>Abbie</td>
+                    <td>01.01.1970</td>
+                    <td>morton91@hammes.com</td>
+                    <td>+9069769550011</td>
+                    <td>Germany</td>
+                    <td>Berlin</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Bergnaum Bergnaum Bergnaum</td>
+                    <td>Abbie</td>
+                    <td>01.01.1970</td>
+                    <td>morton91@hammes.com</td>
+                    <td>+9069769550011</td>
+                    <td>Germany</td>
+                    <td>Berlin</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Bergnaum Bergnaum Bergnaum</td>
+                    <td>Abbie</td>
+                    <td>01.01.1970</td>
+                    <td>morton91@hammes.com</td>
+                    <td>+9069769550011</td>
+                    <td>Germany</td>
+                    <td>Berlin</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Bergnaum Bergnaum Bergnaum</td>
+                    <td>Abbie</td>
+                    <td>01.01.1970</td>
+                    <td>morton91@hammes.com</td>
+                    <td>+9069769550011</td>
+                    <td>Germany</td>
+                    <td>Berlin</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>Bergnaum Bergnaum Bergnaum</td>
+                    <td>Abbie</td>
+                    <td>01.01.1970</td>
+                    <td>morton91@hammes.com</td>
+                    <td>+9069769550011</td>
+                    <td>Germany</td>
+                    <td>Berlin</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>Bergnaum Bergnaum Bergnaum</td>
+                    <td>Abbie</td>
+                    <td>01.01.1970</td>
+                    <td>morton91@hammes.com</td>
+                    <td>+9069769550011</td>
+                    <td>Germany</td>
+                    <td>Berlin</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>Bergnaum Bergnaum Bergnaum</td>
+                    <td>Abbie</td>
+                    <td>01.01.1970</td>
+                    <td>morton91@hammes.com</td>
+                    <td>+9069769550011</td>
+                    <td>Germany</td>
+                    <td>Berlin</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td>Bergnaum Bergnaum Bergnaum</td>
+                    <td>Abbie</td>
+                    <td>01.01.1970</td>
+                    <td>morton91@hammes.com</td>
+                    <td>+9069769550011</td>
+                    <td>Germany</td>
+                    <td>Berlin</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td>Bergnaum Bergnaum Bergnaum</td>
+                    <td>Abbie</td>
+                    <td>01.01.1970</td>
+                    <td>morton91@hammes.com</td>
+                    <td>+9069769550011</td>
+                    <td>Germany</td>
+                    <td>Berlin</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                    <td>DE</td>
+                </tr>
+            </tbody>
+        </table>
+        <hr class="mtb-3">
+        <div><p class="name-of-table">Банк лицензий</p></div>
+        <table class="table table-2">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Порядковый номер</th>
+                    <th>Наименование продукта</th>
+                    <th>Наличие персонализации</th>
+                    <th>Вид персонализации</th>
+                    <th>Ключ лицензии</th>
+                    <th>Примечание</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Bergnaum Bergnaum Bergnaum</td>
+                    <td>Abbie</td>
+                    <td>01.01.1970</td>
+                    <td>morton91@hammes.com</td>
+                    <td>+9069769550011</td>
+                    <td>Germany</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Bergnaum</td>
+                    <td>Abbie</td>
+                    <td>01.01.1970</td>
+                    <td>morton91@hammes.com</td>
+                    <td>+9069769550011</td>
+                    <td>Germany</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Bergnaum</td>
+                    <td>Abbie</td>
+                    <td>01.01.1970</td>
+                    <td>morton91@hammes.com</td>
+                    <td>+9069769550011</td>
+                    <td>Germany</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Bergnaum</td>
+                    <td>Abbie</td>
+                    <td>01.01.1970</td>
+                    <td>morton91@hammes.com</td>
+                    <td>+9069769550011</td>
+                    <td>Germany</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Bergnaum</td>
+                    <td>Abbie</td>
+                    <td>01.01.1970</td>
+                    <td>morton91@hammes.com</td>
+                    <td>+9069769550011</td>
+                    <td>Germany</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>Bergnaum</td>
+                    <td>Abbie</td>
+                    <td>01.01.1970</td>
+                    <td>morton91@hammes.com</td>
+                    <td>+9069769550011</td>
+                    <td>Germany</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>Bergnaum</td>
+                    <td>Abbie</td>
+                    <td>01.01.1970</td>
+                    <td>morton91@hammes.com</td>
+                    <td>+9069769550011</td>
+                    <td>Germany</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>Bergnaum</td>
+                    <td>Abbie</td>
+                    <td>01.01.1970</td>
+                    <td>morton91@hammes.com</td>
+                    <td>+9069769550011</td>
+                    <td>Germany</td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td>Bergnaum</td>
+                    <td>Abbie</td>
+                    <td>01.01.1970</td>
+                    <td>morton91@hammes.com</td>
+                    <td>+9069769550011</td>
+                    <td>Germany</td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td>Bergnaum</td>
+                    <td>Abbie</td>
+                    <td>01.01.1970</td>
+                    <td>morton91@hammes.com</td>
+                    <td>+9069769550011</td>
+                    <td>Germany</td>
+                </tr>
+            </tbody>
+        </table>
+        <hr class="mtb-3">
+        <div><p class="name-of-table">Персонализации сотрудника</p></div>
+        <table class="table table-2">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>ID сотрудника</th>
+                    <th>ФИО ответственного, должность, таб. номер</th>
+                    <th>ID ПК</th>
+                    <th>Персональные полномочия</th>
+                    <th>Дата</th>
+                    <th>Состояние сотрудника</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Bergnaum Bergnaum Bergnaum</td>
+                    <td>Abbie</td>
+                    <td>01.01.1970</td>
+                    <td>morton91@hammes.com</td>
+                    <td>+9069769550011</td>
+                    <td>Germany</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Bergnaum</td>
+                    <td>Abbie</td>
+                    <td>01.01.1970</td>
+                    <td>morton91@hammes.com</td>
+                    <td>+9069769550011</td>
+                    <td>Germany</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Bergnaum</td>
+                    <td>Abbie</td>
+                    <td>01.01.1970</td>
+                    <td>morton91@hammes.com</td>
+                    <td>+9069769550011</td>
+                    <td>Germany</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Bergnaum</td>
+                    <td>Abbie</td>
+                    <td>01.01.1970</td>
+                    <td>morton91@hammes.com</td>
+                    <td>+9069769550011</td>
+                    <td>Germany</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Bergnaum</td>
+                    <td>Abbie</td>
+                    <td>01.01.1970</td>
+                    <td>morton91@hammes.com</td>
+                    <td>+9069769550011</td>
+                    <td>Germany</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>Bergnaum</td>
+                    <td>Abbie</td>
+                    <td>01.01.1970</td>
+                    <td>morton91@hammes.com</td>
+                    <td>+9069769550011</td>
+                    <td>Germany</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>Bergnaum</td>
+                    <td>Abbie</td>
+                    <td>01.01.1970</td>
+                    <td>morton91@hammes.com</td>
+                    <td>+9069769550011</td>
+                    <td>Germany</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>Bergnaum</td>
+                    <td>Abbie</td>
+                    <td>01.01.1970</td>
+                    <td>morton91@hammes.com</td>
+                    <td>+9069769550011</td>
+                    <td>Germany</td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td>Bergnaum</td>
+                    <td>Abbie</td>
+                    <td>01.01.1970</td>
+                    <td>morton91@hammes.com</td>
+                    <td>+9069769550011</td>
+                    <td>Germany</td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td>Bergnaum</td>
+                    <td>Abbie</td>
+                    <td>01.01.1970</td>
+                    <td>morton91@hammes.com</td>
+                    <td>+9069769550011</td>
+                    <td>Germany</td>
+                </tr>
+            </tbody>
+        </table>
+        <hr class="mtb-3">
+    </div>
+    </div>
+    <hr class="mtb-3">
+    </div>
+    <div class="bottom"></div>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
